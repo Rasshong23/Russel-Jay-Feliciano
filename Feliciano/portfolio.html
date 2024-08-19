@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style type="text/css">
+  body {
+    font-family: Arial, sans-serif;
+
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    background-color: #e6e9e8;
+}
+
+header {
+    text-align:;
+    padding: 2em 0;
+    height: 550px;
+    background-image: url('img/5.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    
+}
+
+header h1 {
+	position: absolute;
+    margin-left: 75px; 
+    margin-top: 270px;
+     font-size: 50px;
+    font-weight: bold;
+   
+    
+
+}
+
+header p {
+    font-size: 20px ;
+    position: absolute;
+    margin-left: 75px; 
+    margin-top: 350px;
+     color: white;
+}
+
+nav {
+   
+    padding: 1em 0;
+    text-align: center;
+    background-color: white;
+    color: white;
+    margin-top: 0;
+}
+
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+   color: #3f3f3f;
+    font-weight: bold;
+    font-size: 18px;
+
+  }
+
+section {
+	margin-top: -25px;
+    background-color: gray;
+    background-size: cover;
+    
+
+}
+
+section h2 {
+    font-size: 2em;
+    font-weight: bold;
+    color:  black;
+
+
+}
+#about{
+    height: 600px;
+    color: black;
+    text-align: center;
+    background-color: white;
+
+
+   }
+#about p{
+    font-size: 20px;
+
+}
+#contact{
+    width: 100%;
+    color: black;
+    flex-wrap: wrap;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+   }
+#contact p{
+     font-size: 23px; 
+     font-weight: bold;
+}
+#educ {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 800px;
+    background-color: #c9cad1;
+    color: black;
+    }
+#educ h2 {
+    width: 100%;
+    text-align: center;
+}
+.education-item {
+    display: flex;
+    align-items: center;
+    width: 45%;
+    margin-bottom: 40px;
+}
+.education-item img {
+    margin-right: 15px;
+    width: 150px;
+    height: 150px;
+}
+.education-item p {
+     margin: 0;
+     font-size: 23px;
+     font-weight: bold;
+}
+.column{
+    float:left;
+    width: 31.8%;
+    height: 50%;
+    background-image : linear-gradient(gray , white) ;
+    border-radius: 25px;
+    margin: 10px;
+
+
+}
+.column p{
+    line-height: 1.5;
+    margin: 40px;
+    text-align: justify;
+    margin-top: -10px;
+}
+.about{
+    content: "";
+    display: table;
+    clear: both;
+    
+}
+.about h2{
+    margin-bottom: 50px;
+}
+.column img{
+    margin-top: -70px;
+}
+.column1{
+    margin-top: 30%;
+    font-weight: bold;
+}
+</style>
+<body>
+  <nav>
+
+        <ul>
+          <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+             <li><a href="#educ">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+
+        </ul>
+    </nav>
+    <header>
+     <section >
+        <h1>Hello, I'm Russel Feliciano </h1>
+        <p> I am a student of Bachelor of Science
+         in Information Technology <br> at Innovative College of Science  and 
+      Technology.</p>
+         </section>
+    </header>
+    
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <div class="column">
+            <img src="img/pisces.png" width="40%" height="50%">
+            <p>Born under the sign of Pisces, I am a creative spirit with a passion for modeling . 
+            My birthstone, amethyst, symbolizes serenity and wisdom, which I strive to embody in my work.
+             </p> 
+         </div>
+         <div class = "column">
+             <img src="img/fa.png" width="40%" height="52%">
+        <p>  I was born on February 23, 2003, and have always been fascinated by making designer afor my all day ootd.
+         This passion has led me to become a  professional model someday.
+        </p> 
+    </div>
+    <div class="column">
+     <img src="img/team.png" width="40%" height="52%">      
+      <p> I am a highly motivated and results-oriented individual with a strong work ethic. I am also a team player
+         and enjoy collaborating with others to achieve common goals.
+     </p>
+ </div>
+        <p class="column1" >I am excited to share my work with you and look forward to connecting!</p>
+    </section>
+     <section id="educ">
+        <h2>Education</h2>
+        <div class="education-item">
+            <img src="img/icst.png" alt="ICST">
+            <p>Innovative College of Science and Technology <br><br>Bachelor of Science in Information Technology</p>
+        </div>
+        <div class="education-item">
+            <img src="img/hs.png" alt="Pag-asa National High School">
+            <p>Pag-asa National High School - <br> Senior High School <br><br>2020 - 2022</p>
+        </div>
+        <div class="education-item">
+            <img src="img/hs.png" alt="Pag-asa National High School">
+            <p>Pag-asa National High School - <br> Junior High School <br> <br>2016 - 2020</p>
+        </div>
+        <div class="education-item">
+            <img src="img/pb.png" alt="Proper Bansud Elementary">
+            <p>Proper Bansud Elementary <br> <br>2015 - 2016</p>
+        </div>
+    <section id="contact">
+        <h2>Contact Information</h2>
+        <p>Address:  Proper Bansud, Bansud , Oriental Mindoro </p>
+        <p>Email:  russeljayfeliciano894@gmail.com</a></p>
+        <p>Phone:   09637066338</a></p>
+    </section>
+</body>
+</html>
